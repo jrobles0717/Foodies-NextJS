@@ -1,6 +1,6 @@
 # Foodies-NextJS
 
-Before running the app, run the in the terminal ``` npm install ``` to install the dependencies.
+Before running the app, run in the terminal ``` npm install ``` to install the dependencies.
 
 Then, run ``` npm run build ``` to build the NextJS application.
 
