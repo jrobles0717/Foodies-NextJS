@@ -4,6 +4,11 @@ import { Suspense } from "react";
 import classes from "./page.module.css";
 import { getMeals } from "@/lib/meals";
 
+export const metadata = {
+  title: "All Meals",
+  description: "Browse the delicious measl shared by our vibrant community.",
+};
+
 async function Meals() {
   console.log("Fetching meals");
   const meals = await getMeals();
